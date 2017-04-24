@@ -1,0 +1,425 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 22, 2014, 4:49:18 PM
+    Author     : shreraj
+*/
+
+@font-face {
+    font-family: quicksand;
+    src: url(../fonts/quicksand.html);
+    src: url(../fonts/quicksandd41d.html?#iefix) format("embedded-opentype"), url(../fonts/quicksand-2.html) format("woff"), url(../fonts/quicksand-3.html) format("truetype"), url(../fonts/quicksand-4.html#svgFontName) format("svg");
+}
+@font-face {
+    font-family: 'quicksand regular';
+    src: url(../fonts/quicksand-regular.eot);
+    src: url(../fonts/quicksand-regulard41d.eot?#iefix) format("embedded-opentype"), url(../fonts/quicksand-regular.woff) format("woff"), url(../fonts/quicksand-regular.ttf) format("truetype"), url(../fonts/quicksand-regular.svg#svgFontName) format("svg");
+}
+@font-face {
+    font-family: 'eras light';
+    src: url(../fonts/eras.html) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: fontello;
+    src: url(../fonts/fontello644e.html?14587781);
+    src: url(../fonts/fontello644e.html?14587781#iefix) format("embedded-opentype"), url(../fonts/fontello644e-2.html?14587781) format("woff"), url(../fonts/fontello644e-3.html?14587781) format("truetype"), url(../fonts/fontello644e-4.html?14587781#fontello) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: fontello;
+        src: url(../fonts/fontello644e-4.html?14587781#fontello) format("svg");
+    }
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+
+    overflow-x: hidden;
+    background: #eee !important;
+}
+
+a:focus { 
+    outline: none; 
+}
+
+button:focus { 
+    outline: none; 
+}
+
+
+p,body{
+    font-size: 12px;
+    background: #ccc;
+}
+
+
+
+/*.wrapper{
+    -webkit-box-shadow: -1px 0px 9px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    -1px 0px 9px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         -1px 0px 9px 0px rgba(50, 50, 50, 0.75);
+    background: #fcfc;
+}*/
+
+
+h4,h3,h2,h1{
+    color: #009e0f;
+}
+
+
+
+.header{
+    /*    background: #199ac8;
+        color:white;*/
+
+}
+.playbtns {
+    text-align: center;
+    background: #fff;
+    border-bottom: 2px solid #236eb1;
+}
+.playbtns .btn {
+    font-size: 17px;
+    margin-top:20px;
+    text-transform: uppercase;
+}
+.playbtns p {
+    background: none;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.heightmid {
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+
+.appshowone h1 {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:65px;
+}
+
+.homelistapps div {
+    float: left;
+    width: 100%;
+    -webkit-box-shadow: 0 6px 6px -6px black;
+       -moz-box-shadow: 0 6px 6px -6px black;
+            box-shadow: 0 6px 6px -6px black;
+}
+
+.homelistapps p {
+    background: #fff;
+    padding : 10px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.homelistapps a {
+    text-decoration: none;
+}
+
+.header a{
+    color: #e68514;
+    font-weight: bold;
+}
+
+.margin-bottom-10{
+    margin-bottom: 10px !important;
+}
+.socialsresult {
+    float: left;
+    clear: both;
+    background: #fff;
+    width: 100%;
+    padding: 10px;
+}
+.latestapps {
+    width: 100%;
+    margin:0;
+    border-top:2px solid #236eb1;
+    padding: 0;
+    float: left;
+    background: #fff;
+    padding: 10px 0;
+}
+.fbcomments {
+    background: #fff;
+    margin-top:15px;
+    padding: 0 15px;
+    border-top:2px solid #236eb1;
+}
+.latestapps li a {
+    color: #333;
+}
+.latestapps li h2 {
+    color: #236eb1;
+}
+.latestapps li {
+    list-style-type: none;
+    float: left;
+    clear: both;
+    width: 100%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-top:1px solid #eee;
+}
+.latestapps li:first-child {
+    padding-top:0;
+    border:0;
+}
+
+.latestapps li h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0;
+    margin:0;
+}
+.latestapps li img  {
+    height: 70px;
+}
+.latestapps li p {
+    background: none;
+}
+.footer {
+    width: 100%;
+    float: left;
+    clear: both;
+    background: #236eb1;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.item h2 {
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 21px;
+    margin:0;
+    padding: 15px 0;
+
+}
+.item p {
+    color: #333;
+    padding : 7px 0;
+    font-size: 14px;
+    background: #fff;
+}
+
+.margin-bottom-20{
+    margin-bottom: 20px !important;
+}
+
+.margin-top-10{
+    margin-top: 10px !important;
+}
+
+.margin-top-20{
+    margin-top: 20px !important;
+}
+
+#top_header {
+    float: left;
+    padding: 10px;
+    width: 100%;
+    background-image: url('../images/main.jpg');
+}
+
+#site_nav{
+    font-size: 18px;
+
+}
+
+#site_nav a {
+    color:white;
+}
+#site_nav a:hover {
+    color:yellow;
+    text-decoration: none;
+}
+#site_nav ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#site_nav ul li{
+    list-style: none;
+    float: left;
+    padding-right: 10px;
+    float: left;
+}
+
+.ad_space{
+    height: 100px;
+    background: black;
+
+}
+
+h1{
+    font-size: 44px;
+    text-transform: capitalize;
+}
+
+.app_wrapper{
+    background: white;
+    padding-bottom: 10px;
+
+}
+
+.btn-check{
+    background: rgba(251,14,69,1);
+    background: -moz-linear-gradient(top, rgba(251,14,69,1) 0%, rgba(216,3,53,1) 44%, rgba(163,0,38,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(251,14,69,1)), color-stop(44%, rgba(216,3,53,1)), color-stop(100%, rgba(163,0,38,1)));
+    background: -webkit-linear-gradient(top, rgba(251,14,69,1) 0%, rgba(216,3,53,1) 44%, rgba(163,0,38,1) 100%);
+    background: -o-linear-gradient(top, rgba(251,14,69,1) 0%, rgba(216,3,53,1) 44%, rgba(163,0,38,1) 100%);
+    background: -ms-linear-gradient(top, rgba(251,14,69,1) 0%, rgba(216,3,53,1) 44%, rgba(163,0,38,1) 100%);
+    background: linear-gradient(to bottom, rgba(251,14,69,1) 0%, rgba(216,3,53,1) 44%, rgba(163,0,38,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb0e45', endColorstr='#a30026', GradientType=0 );
+
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+
+
+}
+
+.padding-bottom-30{
+    padding-bottom: 30px;
+}
+
+.btn-check:hover{
+    color: white;
+    background: rgba(131,2,32,1);
+    background: -moz-linear-gradient(top, rgba(131,2,32,1) 0%, rgba(105,2,26,1) 44%, rgba(82,0,19,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(131,2,32,1)), color-stop(44%, rgba(105,2,26,1)), color-stop(100%, rgba(82,0,19,1)));
+    background: -webkit-linear-gradient(top, rgba(131,2,32,1) 0%, rgba(105,2,26,1) 44%, rgba(82,0,19,1) 100%);
+    background: -o-linear-gradient(top, rgba(131,2,32,1) 0%, rgba(105,2,26,1) 44%, rgba(82,0,19,1) 100%);
+    background: -ms-linear-gradient(top, rgba(131,2,32,1) 0%, rgba(105,2,26,1) 44%, rgba(82,0,19,1) 100%);
+    background: linear-gradient(to bottom, rgba(131,2,32,1) 0%, rgba(105,2,26,1) 44%, rgba(82,0,19,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#830220', endColorstr='#520013', GradientType=0 );
+}
+
+.note{
+    text-align: center;
+    color: red;
+    font-size: 14px;
+    padding-bottom: 70px;
+}
+
+hr{
+    border-color: #bbb;
+}
+.homelistapps {
+    margin-top:15px;
+}
+.homelistapps:nth-child(4n+1) {
+    clear: both;
+    float: left;
+}
+
+.privacy ul li{
+    float: left;
+    text-align: center;
+    padding:0px 15px;
+}
+
+.privacy ul li a{
+    color:black;
+
+}
+
+.fb-icon-bg:after {
+    content: url("../img/fb.png");
+    display: block;
+    padding: 15px 10px 5px 20px;
+}
+.fb-icon-bg {
+    background: none repeat scroll 0 0 #354f88;
+    height: 50px;
+    margin: 0 0 -50px;
+    width: 50px;
+}
+
+
+.fb-bg:after {
+    color: #fff;
+    content: "share on facebook";
+    /*font-family: "Oswald",sans-serif;*/
+    font-size: 16px;
+    height: 50px;
+    position: relative;
+    text-transform: uppercase;
+    top: 25%;
+    width: 50px;
+}
+.fb-bg {
+    background: none repeat scroll 0 0 #3b5998;
+    display: block;
+    height: 50px;
+    margin: 0 0 10px 50px;
+    width: 200px;
+}
+
+.g-bg:after {
+    color: #fff;
+    content: "share on google+";
+    /*font-family: "Oswald",sans-serif;*/
+    font-size: 16px;
+    height: 37px;
+    position: relative;
+    text-transform: uppercase;
+    top: 25%;
+    width: 50px;
+}
+.g-bg {
+    background: none repeat scroll 0 0 #de4c34;
+    height: 50px;
+    margin-left: 50px;
+    width: 200px;
+}
+
+.g-bg:hover{
+    text-decoration: none;
+}
+
+.g-bg:hover {
+    cursor: pointer;
+}
+
+.g-icon-bg:after {
+    content: url("../img/g_bg.png");
+    display: block;
+    padding: 15px 10px 6px 13px;
+}
+.g-icon-bg {
+    background: none repeat scroll 0 0 #ce3e26;
+    height: 50px;
+    margin: 0 0 -50px;
+    width: 50px;
+}
+
+
+.g-icon-bg:hover{
+    text-decoration: none;
+}
+
+
+.all_app ul li{
+    list-style: none;
+    float: left;
+    margin: 15px;
+}
