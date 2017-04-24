@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 22, 2014, 6:09:31 PM
+    Author     : shreraj
+*/
+
+
+@media (max-width:360px){
+    .process ul li{
+        width: 100%;
+    }
+    
+    .featured ul li{
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+    .featured{
+        background: none;
+    }
+    
+    .search form input{
+        margin:5px 0px;
+    }
+    
+    #carousel div{
+        width: 115px;
+    }
+    #carousel  img{
+        width: 103px;
+    }
+    .col-md-12.featured > ul{
+        padding-left:0px;
+        margin-left:0px;
+    }
+}
